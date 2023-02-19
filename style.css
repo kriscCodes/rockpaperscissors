@@ -1,0 +1,59 @@
+body{
+    background-color: #702F00;
+    color: white;
+    height: 100vh;
+}
+
+#title{
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+#text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#weaponry{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#rock{
+    width: 30%;
+}
+
+#paper{
+    width: 30%;
+}
+
+#scissors{
+    width: 30%;
+}
+
+.userChoice{
+    height: 15vh;
+}
+
+#result{
+    font-size: 1.35rem;
+    text-align: center;
+}
+
+
+.test{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.commentary{
+    text-align: center;
+    margin-top: 15%;
+    font-size: 2.3rem;
+}
+
